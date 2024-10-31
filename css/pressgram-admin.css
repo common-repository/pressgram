@@ -1,0 +1,92 @@
+#pressgram-post-meta:before {
+	content: '\f232';
+	top: -1px;
+}
+
+#pressgram-post-meta:before {
+	font: normal 20px/1 'dashicons';
+	speak: none;
+	display: inline-block;
+	padding: 0 6px 0 0;
+	top: 0;
+	left: -1px;
+	position: relative;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+}
+
+#pressgram-post-meta {
+	padding: 6px 10px 8px;
+	display: inline-block !important;
+	height: auto !important;
+}
+
+/* Pressgram Settings Page */
+#pressgram-section img {
+	float: left;
+	width: 6em;
+	height: 6em;
+	margin-right: 15px;
+}
+
+#pressgram-inclusion-fields label {
+	margin-bottom: 0 !important;
+}
+
+div[id$="-pressgram-category"] {
+	display: inline-block;
+	background: #EFEFEF;
+	margin-left: .5em;
+	padding: .3em .5em .2em .2em;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	position: relative;
+	top: 2px;
+}
+div[id$="-pressgram-category"]:hover {
+	background: #FFF;
+	border: 1px solid #999;
+}
+
+fieldset[id^="pressgram-fine-control-cat"] {
+	padding: 1em;
+	border: 1px solid #ccc;
+	border-top: 0;
+}
+
+#view-pfc-overview {
+	color: #ccc;
+	padding-top: .3em;
+	margin-right: .5em;
+}
+#view-pfc-overview:hover,
+#view-pfc-overview.pfc-on {
+	color: black;
+}
+
+table#pfc-overview {
+	border-collapse: collapse;
+	background: #e4e4e4;
+	width: calc( 94% );
+	border: 1px solid #ccc;
+	padding: 1em;
+	border-top: 0;
+	margin: 0px 20px 0px 2px;
+}
+
+table#pfc-overview td {
+	font-size: 70%;
+	padding: .8em;
+	margin-right:.1em;
+}
+
+table#pfc-overview tr.pfc-active {
+	background: #f1f1f1;
+}
+
+input[name="pressgram_categories[]"] {
+	visibility: hidden;
+	position: absolute;
+}
